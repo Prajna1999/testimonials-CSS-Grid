@@ -61,6 +61,9 @@ main{
 }
 .heading >div{
     padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+
 }
 .heading{
     display: flex;
@@ -106,8 +109,9 @@ img{
 .patrick{
     background-color: var(--very-dark-blackish-blue);
 }
-.kira > div{
+/* .kira > div{
     margin-bottom: 2rem;
-}
+} */
+
 
 
