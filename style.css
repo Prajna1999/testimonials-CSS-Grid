@@ -33,6 +33,15 @@ main{
     justify-content: space-evenly;
    
 }
+.container h1::before{
+   content:open-quote;
+   opacity: 0.3; 
+}
+.container h1::after{
+    content: close-quote;
+    opacity: 0.5;
+    
+}
 .daniel{
     background-color: var(--moderate-violet);
     background-image: url("./images/bg-pattern-quotation.svg");
