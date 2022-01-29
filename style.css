@@ -1,0 +1,91 @@
+:root{
+/* Primary Colors */
+--moderate-violet: hsl(263, 55%, 52%);
+--very-dark-grayish-blue:hsl(217, 19%, 35%);
+--very-dark-blackish-blue: hsl(219,29%, 14%);
+--white:hsl(0,0%,100%);
+/* Neutral Colors */
+--light-gray: hsl(0,0%,81%);
+--light-grayish-blue: hsl(210, 46%, 95%);
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-rows: ; */
+    width: 85%;
+    position: relative;
+    left: 100px;
+    gap: 2em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+}
+.container{
+    padding:2em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.daniel{
+    background-color: var(--moderate-violet);
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 20px;
+    
+}
+.heading >div{
+    padding-top: 1em;
+}
+.heading{
+    display: flex;
+    
+}
+/* common properties will be used by overarching class */
+p{
+    color: hsl(210, 46%, 95%);
+}
+.sub{
+    opacity: 0.5;
+}
+h1{
+    margin: 0.8em 0;
+    font-size: 1.45rem;
+    color: hsl(210, 46%, 95%);
+}
+.review{
+    opacity: 0.7;
+    margin-bottom: 1em;
+}
+img{
+  height: 35px;
+  border-radius: 35px;
+  border: 2px solid hsl(210, 46%, 95%);  
+  margin-right: 15px;
+  margin-top: 1rem;
+}
+.jonathan{
+    background-color: var(--very-dark-grayish-blue);
+}
+.jeanette, .kira{
+    background-color:#F1F5F9;
+    
+}
+.jeanette p, 
+.jeanette h1,
+.kira h1 ,
+.kira p
+{
+    color: hsl(217,19%,35%);
+}
+.patrick{
+    background-color: var(--very-dark-blackish-blue);
+}
+
+
